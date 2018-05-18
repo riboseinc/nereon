@@ -1,0 +1,34 @@
+= Nereon and Nerelog
+
+== Origin
+
+https://en.wikipedia.org/wiki/Nereus[Nereus], the original Greek god of the sea, was renowned as someone trustworthy, and a prophet -- and as a shapeshifter. Like the sea itself, Nereus constantly changed his form.
+
+Just like the different forms that we take to get a computer to carry out a task, and the response it returns.
+
+
+== Nereon: the unified configuration model
+
+Nēreōn is Greek for the place where Nereus is. It could be his temple. It could be his lair. It's where the shapeshifting takes place. It's the unified configuration state where all the various configurations of an object are brought together.
+
+
+== Nerelog: the unified event log model
+
+The Nēreōn is also where the various occurrences of events get logged as well. They get logged, of course, in a Nerelog.
+
+NOTE: A _Nereolog_, strictly speaking, but that's the thing with changing shapes: you can't be too strict about it.
+
+A Nerelog in Greek would be a a student of Nereus: a _nēreológos_. Or else, if you shift the accent as well as your shape, you become a _nēreólogos_: a collection of Nereuses. A cata-log (yes, it's the same suffix) of all the forms that Nereus has taken, all the events in their shape-shifting glory.
+
+
+== Models
+
+The Nereon and Nerelog models are located at https://github.com/riboseinc/nereon-models[Nereon models]
+
+== Implementations
+
+Nereon implementations comes in various shapes including:
+
+* https://github.com/riboseinc/libnereon[`libnereon`] is a meta-configurer and run-time configuration parser library implemented in C
+* https://github.com/riboseinc/go-nereon[`go-nereon`] is a meta-configurer and run-time configuration parser library implemented in Go
+
