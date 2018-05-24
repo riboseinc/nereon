@@ -16,7 +16,7 @@ Nēreōn is Greek for the place where Nereus is. It could be his temple. It coul
 
 The Nēreōn is also where the various occurrences of events get logged as well. They get logged, of course, in a Nerelog.
 
-NOTE: A _Nereolog_, strictly speaking, but that's the thing with changing shapes: you can't be too strict about it.
+NOTE: A Nerelog should be _Nereolog_, strictly speaking, but that's the thing with changing shapes: you can't be too strict about it.
 
 A Nerelog in Greek would be a a student of Nereus: a _nēreológos_. Or else, if you shift the accent as well as your shape, you become a _nēreólogos_: a collection of Nereuses. A cata-log (yes, it's the same suffix) of all the forms that Nereus has taken, all the events in their shape-shifting glory.
 
@@ -31,4 +31,36 @@ Nereon implementations comes in various shapes including:
 
 * https://github.com/riboseinc/libnereon[`libnereon`] is a meta-configurer and run-time configuration parser library implemented in C
 * https://github.com/riboseinc/go-nereon[`go-nereon`] is a meta-configurer and run-time configuration parser library implemented in Go
+
+
+== Notation Syntax
+
+The Nereon Object Notation ("NON") is inspired by HCL and UCL.
+
+
+=== Configuration Schema Syntax
+
+The NON for Configuration Schema ("NOS") uses the file extension `.nos`,
+it is used to define the configuration schemes possible of a configurable
+program.
+
+The NOS file is used for:
+
+* During program compilation, it is compiled into the specific program
+  to accept defined configuration parameters.
+* During installation and/or runtime, the schema definition can be used
+  by third-party libraries or programs to interact or monitor a program
+  that implements this schema.
+* This file can also be distributed from a registry.
+
+=== Configuration Syntax
+
+The NON for Configuration ("NOC") uses the file extension `.noc`,
+it is used to define the running configuration of a configurable
+program.
+
+The NOC file is used for:
+
+* During program startup, it is read in to set the configuration
+  arguments or parameters as a configuration file.
 
